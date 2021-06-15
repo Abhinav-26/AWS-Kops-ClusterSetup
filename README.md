@@ -67,7 +67,8 @@ This keypair will be used for ssh into kubernetes cluster
 ssh-keygen
 ```
 
-### 9. Create a Kubernetes cluster from the config file. Make sure to change config file with your cluster config file (if any) and make neccessary changes in config file as per your requirement.
+### 9. Create a Kubernetes cluster from the config file. 
+Make sure to change config file with your cluster config file (if any) and make neccessary changes in config file as per your requirements.
 
 ```sh
 kops create cluster -f cluster-setup.yaml
