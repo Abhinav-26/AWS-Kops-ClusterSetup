@@ -80,7 +80,8 @@ kops create cluster -f cluster-setup.yaml
 kops create secret --name test.devtron.k8s.local sshpublickey admin -i ~/.ssh/id_rsa.pub
 ```
 
-### 11. Create kubernetes cluster, please don't forget to replace cluster name with your cluster name given.
+### 11. Create kubernetes cluster
+Please don't forget to replace cluster name with your cluster name which you have given in your config file.
 
 ```sh
 kops update cluster test.domain.name --yes 
@@ -97,9 +98,10 @@ For the above above command, you might see validation failed error initially whe
 kops get clusters
 ```
 
-### 13. To connect to the master, replace with your cluster name after api.
+### 13. To connect to the master, 
+Replace test.domain.name with your cluster name to get into the master node of your k8s cluster.
 ```sh
-ssh admin@api.test.doamin.name
+ssh admin@api.test.domain.name
 ```
 After getting into the master, you can run all your kubectl commands, create deployments, get pods, etc and istall tools having kubernetes cluster as dependencies. To come out of master, type ```exit	```
 
