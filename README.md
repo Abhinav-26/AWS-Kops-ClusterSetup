@@ -51,12 +51,12 @@ Open .bashrc file
 ```
 	vi ~/.bashrc
 ```
-Add following content into .bashrc, and make sure bucket name matches the one you created in step 5.
+Add following content into .bashrc file, and make sure bucket name matches the one you created in step 5.
 
 ```sh
 export KOPS_STATE_STORE=s3://abhi.in.k8s
 ```
-Then running command to reflect variables added to .bashrc
+Then run the command to reflect variables added to .bashrc file
 ```
 	source ~/.bashrc
 ```
