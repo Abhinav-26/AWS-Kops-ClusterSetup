@@ -107,7 +107,7 @@ ssh admin@api.test.domain.name
 ```
 After getting into the master, you can run all your kubectl commands, create deployments, get pods, etc and istall tools having kubernetes cluster as dependencies. To come out of master, type ```exit	```
 
-# Destroy the kubernetes cluster
+# Destroy the k8s cluster created
 ```sh
 kops delete cluster test.domain.name --yes
 ```
