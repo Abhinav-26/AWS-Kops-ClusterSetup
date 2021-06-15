@@ -79,7 +79,7 @@ kops create cluster -f cluster-setup.yaml
 ### 10. Create secret to start with installation process
 
 ```sh
-kops create secret --name test.devtron.k8s.local sshpublickey admin -i ~/.ssh/id_rsa.pub
+kops create secret --name test.domain.name sshpublickey admin -i ~/.ssh/id_rsa.pub
 ```
 
 ### 11. Create kubernetes cluster
