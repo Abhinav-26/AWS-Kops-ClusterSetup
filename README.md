@@ -1,4 +1,4 @@
-# AWS-Kops-ClusterSetup
+# AWS K8s ClusterSetup with Kops
 
 This repostory contains all the detailed instruction to create a production grade kubernetes cluster using Kops in AWS. To create a k8s cluster, please follow the following steps -
 
