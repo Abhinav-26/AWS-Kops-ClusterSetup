@@ -112,4 +112,6 @@ After getting into the master, you can run all your kubectl commands, create dep
 kops delete cluster test.domain.name --yes
 ```
 
+## To know more about kops please <a href="https://kops.sigs.k8s.io/">click here</a>
+
 
