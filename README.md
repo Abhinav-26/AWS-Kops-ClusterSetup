@@ -33,19 +33,21 @@ aws s3 mb s3://abhi.in.k8s --region us-east-2
 ```
 ### 6. Create private/pubic hosted zone in AWS Route53
 #### For private hosted zone
+ ```
  1. Head over to aws Route53 and create hostedzone
  2. Choose name for example (abhi.in.k8s)
  3. Choose type as privated hosted zone for VPC
  4. Select default vpc in the region you are setting up your cluster
  5. Hit create
-
+```
 #### For public hosted zone 
+```
  1. Head over to aws Route53 and create hostedzone
  2. Choose your domain name for example (abhi.in)
  3. Choose type as public hosted zone for VPC
  4. Give description
  5. Hit create
-
+```
 ### 7 Configure environment variables.
 Open .bashrc file 
 ```
