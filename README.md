@@ -100,12 +100,13 @@ For the above above command, you might see validation failed error initially whe
 kops get clusters
 ```
 
-### 13. To connect to the master, 
-Replace test.domain.name with your cluster name to get into the master node of your k8s cluster.
+### 13 Congratulation!!!
+Now you can run all your kubectl commands and start deploying your applications over kubernetes. Run the following commands to check the cluster created and see the nodes available.
+
 ```sh
-ssh admin@api.test.domain.name
+kubectl cluster-info
+kubectl get nodes
 ```
-After getting into the master, you can run all your kubectl commands, create deployments, get pods, etc and istall tools having kubernetes cluster as dependencies. To come out of master, type ```exit	```
 
 # Destroy the k8s cluster created
 ```sh
