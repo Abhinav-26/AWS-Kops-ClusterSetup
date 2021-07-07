@@ -73,7 +73,7 @@ ssh-keygen
 Make sure to change config file with your cluster config file (if any) and make neccessary changes in config file as per your requirements.
 
 ```sh
-kops create cluster -f cluster-setup.yaml
+kops create -f cluster-setup.yaml
 ```
 
 ### 10. Create secret to start with installation process
